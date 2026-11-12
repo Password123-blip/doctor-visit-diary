@@ -1,0 +1,27 @@
+{
+  "slug": "doctor-visit-diary",
+  "title": "Doctor Visit Diary",
+  "tagline": "One place for every consultation",
+  "description": "One place for every consultation.",
+  "category": "Health",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "visits",
+    "singular": "visit",
+    "plural": "visits",
+    "fields": [
+      { "name": "doctor", "label": "Doctor", "type": "text", "required": true, "placeholder": "" },
+      { "name": "speciality", "label": "Speciality", "type": "text", "required": true, "placeholder": "Physician" },
+      { "name": "reason", "label": "Reason", "type": "text", "required": true, "placeholder": "" },
+      { "name": "fee", "label": "Fee (Rs)", "type": "number", "required": true, "placeholder": "" },
+      { "name": "visited_on", "label": "Visited on", "type": "date", "required": true, "placeholder": "" }
+    ]
+  },
+  "features": [
+    { "icon": "stethoscope", "title": "Prescription-ready history", "body": "Walk into any new doctor with the full picture." },
+    { "icon": "money", "title": "Spend by speciality", "body": "See where your medical money goes." },
+    { "icon": "lock", "title": "No accounts", "body": "Your data stays in your own deployment." }
+  ],
+  "seed": []
+}
